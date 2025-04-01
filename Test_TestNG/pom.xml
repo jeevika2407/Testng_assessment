@@ -12,13 +12,6 @@
   </properties>
 
   <dependencies>
-    <!-- Custom testngPractice Dependency -->
-    <dependency>
-      <groupId>testng</groupId>
-      <artifactId>testngPractice</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
-    </dependency>
-
     <!-- TestNG Dependency -->
     <dependency>
       <groupId>org.testng</groupId>
@@ -56,7 +49,6 @@
 
   <build>
     <plugins>
-      <!-- Surefire Plugin for running TestNG tests -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-surefire-plugin</artifactId>
@@ -65,13 +57,10 @@
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
-          <systemOut>true</systemOut>
-          <systemErr>true</systemErr>
           <printSummary>true</printSummary>
         </configuration>
       </plugin>
     </plugins>
   </build>
 
-  <!-- Add repository if testngPractice is hosted externally -->
 </project>
