@@ -28,9 +28,9 @@ public class ShopPage extends BasePage{
 	public WebElement suc;
 	
 	public void shop() {
-		fn.sendKeys("Gayathri");
-		ln.sendKeys("R");
-		pc.sendKeys("908765");
+		fn.sendKeys("Jeev");
+		ln.sendKeys("Balaj");
+		pc.sendKeys("123456");
 		con.click();
 		fin.click();
 	}

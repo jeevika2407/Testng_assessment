@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class DataProviders {
 @DataProvider(name="loginDetails",parallel=true)
 public Object[][] excelData() throws IOException{
-	String loc="D:\\ExcelDatas\\LogInDatas.xlsx";
+	String loc="C:\\Users\\kirub\\Downloads\\DemoTest2.xlsx";
 	return getData(loc,"Sheet1");
 }
 public String[][] getData(String loc,String sheet) throws IOException{
